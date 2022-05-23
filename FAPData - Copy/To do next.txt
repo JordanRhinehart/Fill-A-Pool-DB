@@ -1,0 +1,74 @@
+To do next:
+
+1) Design Index page after login. 
+	a)Design Database ERD ☺♦♦♦♦♦♦
+	b)Design webpages for website ☺♦♦♦♦♦♦
+	c)Design how info will be displayed. ☺♦♦♦♦♦♦
+	d)An alert for when a customer has not been serviced
+	e)Add a dropdown menu for selections when applicable. ☺♦♦♦♦♦♦
+	f)Add price calculation based on current rates
+	g)Add automatic cost estimation for previous customers
+	h)Can automatically move upcoming jobs to the completed jobs section. A prompt to add comments is also displayed. ☺♦♦♦♦♦♦
+
+2) Add Tables to Database ☺♦♦♦♦♦♦
+3) Design Webpages to match designs.  ☺♦♦♦♦♦♦
+4) Add PHP to webpages to work with SQL Database tables ☺♦♦♦♦♦♦
+
+
+5) Add removed customers view 
+6) Add auto filling of the tables when adding customer id ☺♦♦♦♦♦♦
+7) When inserting a new customer, a javascript or other message should appear stating the customer id 
+8)Can automatically move upcoming jobs to the completed jobs section. A prompt to add comments is also displayed.  ☺♦♦♦♦♦♦
+
+
+
+
+Fill A Pool Entities:
+
+-Users 1 xx
+	a) Name
+	b) Password
+
+-Fill locations 2 xx
+	a) Name of place
+	b) Address
+	c) Price per gallon
+
+-Customers 3 xx
+	a) First Name
+	b) Last Name
+	c) Address
+	d) Least amount of gallons needed
+	e) Last Service date
+	f) Type of pool (Restricted to two inputs, case sensitive)
+	g) Comments
+	h) Years with company
+	i) Next service date(calculated from last service date)
+
+-Completed Jobs 4 xx
+	a) Date
+	b) Customer
+	c) Number of Gallons
+	d) Price Paid
+	e) Comments
+
+-Upcoming Jobs 5 xx
+	a) Date
+	b) Customer_ID
+	c) Time
+	d) First Name
+	e) Last Name
+	f) Address
+	g) Number of Gallons
+      f) Type of job (Restricted to two inputs, filled or removed water)
+	h) Price
+	i) Comments
+
+-Times Truck Filled 6 xx
+	a) Date
+	b) Location
+	c) Gallons
+
+-Discarded Customers xx
+
+

@@ -1,0 +1,25 @@
+Xampp notes:
+
+-Htdocs is the public www folder. 
+
+-A $_SESSION is a GLOBAL/SUPER GLOBAL VARIABLE that can be accessed from every webpage on your website. 
+You must put session_start() at the top of every page in order to enable this.
+
+$ represents variables in php.
+
+$_SESSION['user_id'] checks the session id for user_id variable to see if exists. 
+
+mysqli is a php extension.
+
+-$_SERVER is an array that automatically stores all of the server information
+
+-Super global variables are built in variables whose scope is defined over the entire PHP script
+
+-php is an object oriented programming language. 
+
+
+***********************************
+Lessons learned in this experience
+***********************************
+
+-The log is very important, as I was not able to have my php script redirect the session user without having the proper error message. I had to check the apache error log files in order to find out that a keyword was mispelled. 

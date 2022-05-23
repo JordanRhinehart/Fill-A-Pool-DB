@@ -1,0 +1,11 @@
+Features to include:
+
+-drop down menu of customers/entities
+
+-ability to insert new customers/entities without having SQL knowledge
+
+-customer last serviced attribute
+
+-drop down menu giving access to the where clause in sql. 
+
+-display tables of customers using bootstrap
